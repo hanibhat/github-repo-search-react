@@ -1,38 +1,65 @@
-.App {
+.main-container {
   text-align: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header,
+.bookmarks-card {
+  background-color: #203153 !important;
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bookmark-button {
+  margin: 0 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bookmark-button>* {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header>.brand {
+  padding: 0 10px;
+  color: white !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link {
+  color: white !important;
+}
+
+.search-bar {
+  justify-content: flex-end;
+}
+
+.search-now {
+  margin-top: 30vh;
+}
+
+.bookmarks-accordion {
+  width: 100vw;
+}
+
+.card-header>button {
+  color: white !important;
+}
+
+.collapse.show {
+  width: 400px !important;
+  margin: auto;
+}
+
+.repo-card,
+.bookmark-body {
+  margin: 10px auto !important;
+  max-width: 400px !important;
+  box-shadow: 3px 3px 3px 3px #20315354;
+  background-color: white !important;
+}
+
+.repositories-container {
+  justify-content: center;
+}
+
+.repo-metadata {
+  justify-content: center;
+  margin-top: 5px;
 }
