@@ -1,5 +1,5 @@
 ## Getting Started
-
+This is the frontend project of the Repo Search app. The backend can be found [here](https://github.com/hanibhat/repo-search-nodejs).
 ### Prerequisites
 
 First of all, make sure you have the following installed in your dev environment:
@@ -10,7 +10,7 @@ First of all, make sure you have the following installed in your dev environment
 
 Follow the steps below to install and run the project on your device:
 
-- Clone this repository by running `https://github.com/hanibhat/github-repo-search-react.git`.
+- Clone this repository by running `https://github.com/hanibhat/repo-search-react.git`.
 - Open a terminal at the root directory.
 - Run `yarn install` to install the dependencies.
 - Run `yarn start` to run the project.
