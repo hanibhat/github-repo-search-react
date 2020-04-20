@@ -12,7 +12,6 @@ export default () => {
   const { bookmarks } = useSelector(state => state)
   const dispatch = useDispatch();
 
-  // runs once on component initialization
   useEffect(() => {
     dispatch(fetchBookmarks())
   }, [dispatch])
